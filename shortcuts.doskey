@@ -21,8 +21,9 @@ gld=git log --pretty=format:"%h %ad %s" --date=short --all $T
 gm=git merge --no-ff $T
 gma=git merge --abort $T
 gmc=git merge --continue $T
-gp=git pull $T
-gpr=git pull --rebase $T
+gp=git push $* $T
+gpl=git pull $T
+gplr=git pull --rebase $T
 gr=git rebase $T
 gs=git status $T
 gss=git status --short $T
