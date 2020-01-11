@@ -3,42 +3,43 @@
 ## Sample git short shortcuts
 Instead for writing `git` everytime on command prompt it's possible to use just shortcut g which will execute `git` command on the command prompt.
 This is possible to due to doskey utility on windows. 
-
-    g=git 
-    ga=git add 
-    gaa=git add . 
-    gaaa=git add --all 
-    gau=git add --update 
-    gb=git branch 
-    gbd=git branch --delete 
-    gc=git commit 
-    gcm=git commit --message 
-    gcf=git commit --fixup 
-    gco=git checkout 
-    gcob=git checkout -b 
-    gcom=git checkout master 
-    gcos=git checkout staging 
-    gcod=git checkout develop 
-    gd=git diff 
-    gda=git diff HEAD 
-    gi=git init 
-    glg=git log --graph --oneline --decorate --all 
-    gld=git log --pretty=format:"%h %ad %s" --date=short --all 
-    gm=git merge --no-ff 
-    gma=git merge --abort 
-    gmc=git merge --continue 
-    gp=git pull 
-    gpr=git pull --rebase 
-    gr=git rebase 
-    gs=git status 
-    gss=git status --short 
-    gst=git stash 
-    gsta=git stash apply 
-    gstd=git stash drop 
-    gstl=git stash list 
-    gstp=git stash pop 
-    gsts=git stash sa
-
+```
+g=git 
+ga=git add 
+gaa=git add . 
+gaaa=git add --all 
+gau=git add --update 
+gb=git branch 
+gbd=git branch --delete 
+gc=git commit 
+gcm=git commit --message  
+gcf=git commit --fixup 
+gco=git checkout 
+gcob=git checkout -b 
+gcom=git checkout master 
+gcos=git checkout staging 
+gcod=git checkout develop 
+gd=git diff 
+gda=git diff HEAD 
+gi=git init 
+glg=git log --graph --oneline --decorate --all 
+gld=git log --pretty=format:"%h %ad %s" --date=short --all 
+gm=git merge --no-ff 
+gma=git merge --abort 
+gmc=git merge --continue 
+gp=git push 
+gpl=git pull 
+gplr=git pull --rebase 
+gr=git rebase 
+gs=git status 
+gss=git status --short 
+gst=git stash 
+gsta=git stash apply 
+gstd=git stash drop 
+gstl=git stash list 
+gstp=git stash pop 
+gsts=git stash save
+```
 ## Steps
 
 **Note:** I have tested below mentioned steps on Windows 10. 
