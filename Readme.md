@@ -49,3 +49,7 @@ This is possible to due to doskey utility on windows.
  4. Right-click and add a new `"String Value"` sub-key. Name it Autorun.
  5. Value data ->    `DOSKEY /MACROFILE="<Repo path>\shortcuts.doskey"`
  6. Open command prompt and run command as `doskey /macros` and you should be able to see all the marcos.
+
+# Referances :
+Doskey : https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/doskey
+Git Commands : https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
