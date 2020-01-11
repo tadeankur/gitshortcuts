@@ -40,6 +40,7 @@ gstl=git stash list
 gstp=git stash pop 
 gsts=git stash save
 ```
+
 ## Steps
 
 **Note:** I have tested below mentioned steps on Windows 10. 
@@ -47,10 +48,12 @@ gsts=git stash save
  1. Checkout Repo to your local directory
  2. Open to the registry editor using command `regedit`.
  3. Goto location  `HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\`
- 4. Right-click and add a new `"String Value"` sub-key. Name it Autorun.
+ 4. Right-click and add a new `"String Value"` sub-key. Name it `Autorun`.
  5. Value data ->    `DOSKEY /MACROFILE="<Repo path>\shortcuts.doskey"`
  6. Open command prompt and run command as `doskey /macros` and you should be able to see all the marcos.
 
 # Referances :
-Doskey : https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/doskey
-Git Commands : https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
+1. Doskey : https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/doskey
+2. Git Commands : https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
+3. Stackoverflow : https://superuser.com/questions/1134368/create-permanent-doskey-in-windows-cmd
+4. Git shortcuts : https://jonsuh.com/blog/git-command-line-shortcuts/
