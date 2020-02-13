@@ -27,7 +27,7 @@ gld=git log --pretty=format:"%h %ad %s" --date=short --all
 gm=git merge --no-ff 
 gma=git merge --abort 
 gmc=git merge --continue 
-gp=git push 
+gpu=git push 
 gpl=git pull 
 gplr=git pull --rebase 
 gr=git rebase 
